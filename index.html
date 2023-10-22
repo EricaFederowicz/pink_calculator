@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="calculadora">
+        <input id="display" class="visor" type="text" readonly>
+        <div class="botoes">
+            <section>
+                <button class="botao" data-number="7">7</button>
+                <button class="botao" data-number="8">8</button>
+                <button class="botao" data-number="9">9</button>
+                <button class="botao" data-operation="+">+</button>
+            </section>
+            <section>
+                <button class="botao" data-number="4">4</button>
+                <button class="botao" data-number="5">5</button>
+                <button class="botao" data-number="6">6</button>
+                <button class="botao" data-operation="-">-</button>
+            </section>
+            <section>
+                <button class="botao" data-number="1">1</button>
+                <button class="botao" data-number="2">2</button>
+                <button class="botao" data-number="3">3</button>
+                <button class="botao" data-operation="*">*</button>
+            </section>
+            <section>
+                <button class="botao" data-number="0">0</button>
+                <button class="botao"  id="limpa">C</button>
+                <button class="botao" id="igual">=</button>
+            </section>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
